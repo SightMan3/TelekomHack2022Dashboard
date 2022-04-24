@@ -25,7 +25,7 @@
 
 .page_main .back {
   color: white;
-  background-color: #2D3047;
+  background-color: #ED217C;
   height: 6%;
   width: 10%;
   outline: none;
@@ -185,7 +185,7 @@
 
 .page_main .page_title div {
   color: white;
-  background-color: #2D3047;
+  background-color: #ED217C;
   height: 100%;
   width: 30%;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -200,7 +200,7 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
-  font-size: 2em;
+  font-size: 150%;
   font-family: "Comfortaa", cursive;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -232,8 +232,13 @@
 }
 
 .page_main .sentences p {
+  height: 80%;
   margin: 1%;
   font-family: "Comfortaa", cursive;
   border-radius: 15px;
+  /*display: flex;
+            justify-content: center;
+            align-items: center;
+           */
 }
 /*# sourceMappingURL=pages.css.map */

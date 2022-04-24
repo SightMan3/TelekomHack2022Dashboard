@@ -112,7 +112,7 @@ function Urls() {
                         }
     
 
-                        if (title_length >= 15)
+                        if (title_length > 20)
                         {
                             return ( 
                                 <button
@@ -138,7 +138,7 @@ function Urls() {
                                 ><p>{jsonnn[element].title}</p></button>
                             );
                         }
-                        else if (title_length > 8 && title_length < 15)
+                        else if (title_length > 8 && title_length <= 20)
                         {
                             return ( 
                                 <button

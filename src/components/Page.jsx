@@ -57,8 +57,13 @@ function Page() {
         neg_bar = (normalize(neg, 0, 50) * 100) / 2;
         pos_bar = (normalize(pos, 0, 50) * 100) / 2;
 
+
         setpositive_precentage( pos );
         setnegative_precentage( neg );
+        
+        if (isNaN(neg_bar)) { neg_bar = 5; setnegative_precentage( 0 );}
+        if (isNaN(pos_bar)) { pos_bar = 5; setpositive_precentage( 0 );}
+
 
         document.querySelector('#nb').style = 'height: ' + neg_bar + '%';
         document.querySelector('#pb').style = 'height: ' + pos_bar + '%';
@@ -68,7 +73,7 @@ function Page() {
     function o_route_to_url()
     {
         // history.state.usr
-        window.location.href = "https://google.com";
+        window.location.href = history.state.usr;
     }
 
     useEffect(() => {
@@ -93,9 +98,20 @@ function Page() {
         
 
         const coll = document.getElementsByClassName('sen');
+        const sentences = document.getElementById('sentences');
         for (let i = 0; i < coll.length; i++)
         {
-            coll[i].style = 'font-size: ' + rand(15, 40) + 'px';
+            let r = rand(15, 40);
+            if (r > 38)
+            {
+                sentences.style.width = '90%';
+            }
+            else
+            {
+                sentences.style.width = '70%';
+
+            }
+            coll[i].style = 'font-size: ' + r + 'px';
         }
 
          
@@ -160,7 +176,7 @@ function Page() {
   return (
     <div className="page_main">
         
-        <button className='back' style={get_rand_color()} onClick={
+        <button className='back' onClick={
             () => {
                 navigate(-1);
             }
@@ -181,7 +197,7 @@ function Page() {
         </section>
 
         <section className='page_title'>
-            <div onClick={o_route_to_url}  style={get_rand_color()}>{ name }</div>
+            <div onClick={o_route_to_url} >{ name }</div>
         </section>
 
         <section id="sentences" className='sentences'>

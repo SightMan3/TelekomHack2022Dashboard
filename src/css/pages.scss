@@ -21,7 +21,7 @@ $shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
     .back {
         color: white;
-        background-color: #2D3047;
+        background-color: #ED217C;
         height: 6%;
         width: 10%;
 
@@ -161,7 +161,7 @@ $shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         div 
         {
             color: white;
-            background-color: #2D3047;
+            background-color: #ED217C;
             height: 100%;
             width: 30%;
 
@@ -173,7 +173,7 @@ $shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
             border-radius: 15px;
 
-            font-size: 2em;
+            font-size: 150%;
             font-family: $font;
 
             transition: all .2s ease-in-out;
@@ -204,12 +204,16 @@ $shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         
         p
         {
-            
+            height: 80%;
             margin: 1%;
             font-family: $font;
 
             border-radius: 15px;
-           
+
+            /*display: flex;
+            justify-content: center;
+            align-items: center;
+           */
         }
 
        

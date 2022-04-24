@@ -49,8 +49,8 @@
   display: grid;
   -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
   grid-gap: 2%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -64,6 +64,9 @@
   outline: none;
   border: none;
   border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
   background-color: unset;
   width: 100%;
   height: 150px;

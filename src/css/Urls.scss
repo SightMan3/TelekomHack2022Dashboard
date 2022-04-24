@@ -45,7 +45,7 @@ $shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
         grid-gap: 2%;
 
         justify-content: center;
@@ -56,6 +56,9 @@ $shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             outline: none;
             border: none;
             border-radius: 15px;
+            box-shadow: $shadow;
+
+            cursor: pointer;
 
             background-color: unset;
             width: 100%;
