@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page_main {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page_main .back {
+  color: white;
+  background-color: #2D3047;
+  height: 6%;
+  width: 10%;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  margin-top: 1%;
+  font-size: 1em;
+  font-family: "Comfortaa", cursive;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.page_main .back:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page_main .back:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.page_main .percentage {
+  height: 46%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page_main .percentage .negative {
+  height: 100%;
+  width: 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page_main .percentage .negative div {
+  margin-right: 5%;
+  font-family: "Comfortaa", cursive;
+  font-size: 160px;
+}
+
+.page_main .percentage .negative p {
+  margin-right: 5%;
+  font-family: "Comfortaa", cursive;
+  font-size: 50px;
+}
+
+.page_main .percentage .bars {
+  height: 100%;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #2D3047;
+}
+
+.page_main .percentage .bars .neg_bar {
+  margin: 8%;
+  width: 25%;
+  height: unset;
+  background-color: #2D3047;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.page_main .percentage .bars .pos_bar {
+  margin: 8%;
+  width: 25%;
+  height: unset;
+  background-color: #2D3047;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.page_main .percentage .positive {
+  height: 100%;
+  width: 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page_main .percentage .positive div {
+  margin-right: 1%;
+  font-family: "Comfortaa", cursive;
+  font-size: 160px;
+}
+
+.page_main .percentage .positive p {
+  margin-right: 1%;
+  font-family: "Comfortaa", cursive;
+  font-size: 50px;
+}
+
+.page_main .page_title {
+  height: 8%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page_main .page_title div {
+  color: white;
+  background-color: #2D3047;
+  height: 100%;
+  width: 30%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  font-size: 2em;
+  font-family: "Comfortaa", cursive;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.page_main .page_title div:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page_main .page_title div:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.page_main .sentences {
+  height: 50%;
+  width: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page_main .sentences p {
+  margin: 1%;
+  font-family: "Comfortaa", cursive;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=pages.css.map */

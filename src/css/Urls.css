@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_url {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_url .nav_search {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_url .nav_search h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 60px;
+}
+
+.main_url .url_buttons {
+  width: 60%;
+  height: 60%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_url .url_buttons button {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: unset;
+  width: 100%;
+  height: 150px;
+  color: unset;
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main_url .url_buttons button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main_url .url_buttons button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.main_url .url_buttons button p {
+  width: 60%;
+}
+
+.main_url .url_buttons .url_btn {
+  color: unset;
+}
+
+/* .main_url .url_buttons button:nth-child(8) { grid-column: span 2; }
+*/
+/*# sourceMappingURL=Urls.css.map */
